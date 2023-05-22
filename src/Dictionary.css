@@ -3,3 +3,29 @@ h2 {
   text-transform: capitalize;
   font-weight: 700;
 }
+
+body {
+  background-color: rgb(255, 250, 146);
+}
+
+.Dictionary section {
+  max-width: 100%;
+  background: white;
+  padding: 30px;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+}
+
+.Dictionary input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}

@@ -9,8 +9,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <h4>What word do you want to look up?</h4>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text-center">Coded by Liza Fernandez</footer>
       </div>

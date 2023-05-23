@@ -13,7 +13,7 @@ body {
   background: white;
   padding: 30px;
   margin: 15px 0;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
 
@@ -26,6 +26,6 @@ body {
 }
 
 .Dictionary .hint {
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 5px;
 }

@@ -44,9 +44,7 @@ export default function Dictionary(props) {
               defaultValue="sunset"
             />
           </form>
-          <div className="hint">
-            suggested words: sunset, sunrise, yoga, plant...
-          </div>
+          <div className="hint">i.e. sunset, sunrise, yoga, plant...</div>
         </section>
         <Results results={results} />
       </div>

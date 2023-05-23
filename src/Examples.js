@@ -3,7 +3,7 @@ import "./Examples.css";
 
 export default function Examples(props) {
   if (props.examples) {
-    return <div className="Examples">{props.examples}</div>;
+    return <p className="Examples">{props.examples}</p>;
   } else {
     return null;
   }
